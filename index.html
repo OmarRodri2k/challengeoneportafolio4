@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/flexbox.css">
+
+    <script src="./Javascript/redireccion.js"></script>
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;1,800&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Antonio:wght@700&family=Ephesis&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Antonio:wght@700&family=Bigshot+One&family=Ephesis&display=swap" rel="stylesheet">
+    <title>Only Black</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Ofertas</a></li>
+                <li><a href="#">Contacto</a></li>
+                
+            </ul>
+        </nav>
+
+        <div class="pagina-registro">     
+            <a href="registro.html">Registrarse</a>
+        </div>
+
+        <form action="resultado-busqueda.html">
+            <label for="search">Buscar producto:</label>
+            <input type="search" id="search" name="q" placeholder="Ingrese su búsqueda aquí" />
+            <button type="submit">Buscar</button>
+        </form>
+
+        <div id="saludo"></div>
+    </header>
+
+
+
+
+    <main>
+        <section class="banner">
+            <img src="/imagenes/banner.jpg" alt="Banner">
+        </section>
+<section class="products">
+    <div class="container">
+        <div class="section1">
+            <h2>Computadoras</h2>
+            <div class="product-pc">
+                <div class="product-item">
+                    <img src="/imagenes/PC/case.jpg" alt="Case Gamin" class="product-img">
+                    <div class="product-details">
+                        <h3 class="product-name">Case Gamin</h3>
+                        <p class="product-price">$99.99</p>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <img src="/imagenes/PC/discosssd.jpg" alt="Disco SSD 1TH" class="product-img">
+                    <div class="product-details">
+                        <h3 class="product-name">Disco SSD 1TH</h3>
+                        <p class="product-price">$129.99</p>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <img src="/imagenes/PC/motherboard1.jpg" alt="motherboard" class="product-img">
+                    <div class="product-details">
+                        <h3 class="product-name">Motherboard</h3>
+                        <p class="product-price">$199.99</p>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <img src="/imagenes/PC/motherboard2.jpg" alt="motherboard" class="product-img">
+                    <div class="product-details">
+                        <h3 class="product-name">Motherboard</h3>
+                        <p class="product-price">$249.99</p>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <img src="/imagenes/PC/ram.jpg" alt="Memorias RAM" class="product-img">
+                    <div class="product-details">
+                        <h3 class="product-name">Memorias RAM</h3>
+                        <p class="product-price">$79.99</p>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <img src="/imagenes/PC/teclado.jpg" alt="teclado Gamer" class="product-img">
+                    <div class="product-details">
+                        <h3 class="product-name">Teclado Gamer</h3>
+                        <p class="product-price">$149.99</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section2">
+        <h2>Viodeoconsolas</h2>
+        <div class="product-consolas">
+            <div class="product-item">
+                <img src="/imagenes/consolas/Nintendo.jpg" alt="producto 1" class="product-img">
+                <div class="product-details">
+                    <h3 class="product-name">Nintendo Switch</h3>
+                    <p class="product-price">$299.99</p>
+                </div>
+            </div>
+            <div class="product-item">
+                <img src="/imagenes/consolas/PS4.jpg" alt="producto 2" class="product-img">
+                <div class="product-details">
+                    <h3 class="product-name">PlayStation 4</h3>
+                    <p class="product-price">$399.99</p>
+                </div>
+            </div>
+            <div class="product-item">
+                <img src="/imagenes/consolas/ps5.jpg" alt="producto 3" class="product-img">
+                <div class="product-details">
+                    <h3 class="product-name">PlayStation 5</h3>
+                    <p class="product-price">$499.99</p>
+                </div>
+            </div>
+            <div class="product-item">
+                <img src="/imagenes/consolas/Steam.jpg" alt="producto 4" class="product-img">
+                <div class="product-details">
+                    <h3 class="product-name">Steam Deck</h3>
+                    <p class="product-price">$399.99</p>
+                </div>
+            </div>
+            <div class="product-item">
+                <img src="/imagenes/consolas/XboxS.jpg" alt="producto 5" class="product-img">
+                <div class="product-details">
+                    <h3 class="product-name">Xbox Series S</h3>
+                    <p class="product-price">$299.99</p>
+                </div>
+            </div>
+            <div class="product-item">
+                <img src="/imagenes/consolas/XboxX.jpg" alt="producto 6" class="product-img">
+                <div class="product-details">
+                    <h3 class="product-name">Xbox Series X</h3>
+                    <p class="product-price">$499.99</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section3">
+            <h2>Diversos</h2>
+            <div class="product-diversos">
+                <div class="product-item">
+                    <img src="/imagenes/Diversos/funko.jpg" alt="producto 1" class="product-img">
+                    <div class="product-details">
+                        <h3 class="product-name">Funko Pop</h3>
+                        <p class="product-price">$10.99</p>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <img src="/imagenes/Diversos/jujutsu.jpg" alt="producto 2" class="product-img">
+                    <div class="product-details">
+                        <h3 class="product-name">Figura Jujutsu Kaisen </h3>
+                        <p class="product-price">$7.99</p>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <img src="/imagenes/Diversos/kimetsu.jpg" alt="producto 3" class="product-img">
+                    <div class="product-details">
+                        <h3 class="product-name">Figura Kimetsu no Yaiba </h3>
+                        <p class="product-price">$7.99</p>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <img src="/imagenes/Diversos/naruto.jpg" alt="producto 4" class="product-img">
+                    <div class="product-details">
+                        <h3 class="product-name">Naruto Shippuden: Ultimate Ninja Storm 4</h3>
+                        <p class="product-price">$7.99</p>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <img src="/imagenes/Diversos/ng.jpg" alt="producto 5" class="product-img">
+                    <div class="product-details">
+                        <h3 class="product-name">Razer DeathAdder</h3>
+                        <p class="product-price">$49.99</p>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <img src="/imagenes/Diversos/razer.jpg" alt="producto 6" class="product-img">
+                    <div class="product-details">
+                        <h3 class="product-name">Razer DeathAdder Elite Gaming Mouse</h3>
+                        <p class="product-price">$69.99</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="contacto">
+            <h2>Contacto</h2>
+            <form>
+                <form>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" title="Nombre" placeholder="Introduce tu nombre">
+        
+                    <label for="correo">Correo electrónico:</label>
+                    <input type="email" id="correo" name="correo" title="Correo electrónico"
+                        placeholder="Introduce tu correo electrónico">
+        
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" title="Mensaje" placeholder="Escribe tu mensaje aquí"></textarea>
+        
+                    <input type="submit" value="Enviar">
+                </form>
+        
+            </form>
+        </section>
+        </main>
+        
+        <footer>
+            <p>Derechos reservados © 2023</p>
+        </footer>
+
+        </body>
+        
+        </html>

@@ -1,0 +1,173 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+
+.pagina-registro {
+    margin-right: auto;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-family: 'Antonio', sans-serif;
+    font-size: 20px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+form {
+    display: flex;
+    align-items: center;
+}
+
+input[type="search"] {
+    padding: 5px;
+    margin-right: 20px;
+    border: none;
+    border-radius: 3px;
+    width: 85%;
+}
+
+button[type="submit"] {
+    background-color: #fff;
+    color: #333;
+    border: none;
+    border-radius: 30px;
+    padding: 5px 10px;
+    margin-right: 10px;
+    width: 35%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ccc;
+    height: 400px;
+}
+
+.galeria {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.galeria li {
+    flex-basis: 300px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.contacto form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.contacto label {
+    margin-top: 10px;
+}
+
+.contacto input,
+.contacto textarea {
+    margin-bottom: 10px;
+    padding: 5px;
+    border: none;
+    border-radius: 20px;
+    border: 3px solid;
+    border-color: gray;
+}
+
+.contacto textarea {
+    resize: none;
+}
+
+.contacto button {
+    align-self: flex-end;
+    background-color: #fff;
+    color: #333;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    height: 50px;
+}
+
+.product-pc,
+.product-consolas,
+.product-diversos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.product-pc img,
+.product-consolas img,
+.product-diversos img {
+    width: 211px;
+}
+
+.product-pc h3,
+.product-consolas h3,
+.product-diversos h3 {
+    margin-top: 10px;
+}
+
+.product-pc p,
+.product-consolas p,
+.product-diversos p {
+    margin-top: 5px;
+    font-weight: bold;
+}
